@@ -1,17 +1,16 @@
 import random
-import math
 
 max_number = 20
 min_number = 1
 system_input = random.randint(min_number, max_number)
 total_guesses = 3
+CLOSENESS_THRESHOLD = 5
 
 
 while total_guesses > 0:
     try:
         user_input = int(
             input(f"guess the number (you have {total_guesses} chance left ): ").strip())
-        total_guesses -= 1
 
         if user_input > max_number or user_input < min_number:
             print(f'Enter a number between {min_number} and {max_number}')
@@ -19,13 +18,15 @@ while total_guesses > 0:
         elif user_input == system_input:
             print('correct')
             break
-        elif abs(user_input-system_input) <= 5:
+        elif abs(user_input-system_input) <= CLOSENESS_THRESHOLD:
             print('close')
 
         elif user_input > system_input:
             print("too high")
         elif user_input < system_input:
             print('too low')
+
+        total_guesses -= 1
     except ValueError:
         print("enter a number NOT A STRING")
 
