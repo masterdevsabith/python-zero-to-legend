@@ -1,11 +1,27 @@
 import random
+import sys
+
+
+iteration = 0
 
 
 number_of_rounds = input(
     "number of rounds needed (only odd number of rounds) :")
-iteration = 0
-if number_of_rounds.isnumeric() and int(number_of_rounds) % 2 == 0:
+
+if not number_of_rounds.isnumeric():
+    print("type a numeric value")
+    sys.exit()
+
+
+number_of_rounds = int(number_of_rounds)
+
+
+if number_of_rounds < 1:
+    print("it should be atleast 1")
+    sys.exit()
+if number_of_rounds % 2 == 0:
     print("not odd")
+    sys.exit()
 
 
 items = ['rock', 'paper', 'scissors']
@@ -43,9 +59,9 @@ def picking_an_item():
     print(f'you : {user_input} | system  : {system_input}')
 
 
-if number_of_rounds.isnumeric() and int(number_of_rounds) >= 1 and int(number_of_rounds) % 2 != 0:
+if number_of_rounds >= 1:
 
-    while iteration < int(number_of_rounds):
+    while iteration < number_of_rounds:
         picking_an_item()
         iteration += 1
 
@@ -60,7 +76,7 @@ if number_of_rounds.isnumeric() and int(number_of_rounds) >= 1 and int(number_of
             YOUR SCORE : {human_score}
             SYSTEM SCORE : {system_score}
             WINNER : {winner}
-''')
+        ''')
 
     # do_you_want_to_play_again = input(
     #     "do you want to play again ? : (Yes/No)").strip().lower()
