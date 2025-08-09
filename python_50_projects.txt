@@ -1,0 +1,165 @@
+Python 50 Projects Roadmap
+========================================
+
+#################
+####COMPLETED####
+#################
+
+
+1. Number Guessing Game
+   Description: The computer randomly picks a number and the player tries to guess it. Provide hints if the guess is too high or too low.
+
+2. Rock Paper Scissors
+   Description: User plays Rock-Paper-Scissors against the computer. Keep score over multiple rounds.
+
+3. Simple To-Do List (Terminal)
+   Description: Create, view, and delete tasks in a terminal-based to-do list. Store tasks in memory.
+
+
+
+############
+####TODO####
+############
+
+
+4. Basic Calculator
+   Description: Perform addition, subtraction, multiplication, and division. Accept input from user repeatedly until exit.
+
+5. Temperature Converter
+   Description: Convert temperatures between Celsius, Fahrenheit, and Kelvin.
+
+6. Countdown Timer
+   Description: User sets a countdown in seconds or minutes. Program counts down and alerts when finished.
+
+7. Simple Alarm Clock
+   Description: User sets a time and the program plays a sound when the time is reached.
+
+8. Palindrome Checker
+   Description: Check if a string is a palindrome. Ignore spaces, punctuation, and case.
+
+9. Word Counter
+   Description: Count words, characters, and sentences in a given text file or string.
+
+10. Currency Converter
+   Description: Convert between currencies using predefined exchange rates.
+
+11. Contact Book
+   Description: Store and manage contacts with name, phone, and email. Allow adding, searching, and deleting.
+
+12. Weather App (API)
+   Description: Fetch and display weather info from an online API for a given city.
+
+13. Quiz Game
+   Description: Multiple choice questions. Keep score and show results at the end.
+
+14. Password Generator
+   Description: Generate strong random passwords with letters, numbers, and symbols.
+
+15. File Organizer
+   Description: Sort files in a folder by type (e.g., move images to 'Images' folder).
+
+16. Simple Chatbot
+   Description: Answer simple questions from the user using predefined responses.
+
+17. Markdown to HTML Converter
+   Description: Convert Markdown files to HTML.
+
+18. Text-Based Adventure Game
+   Description: Simple RPG in the terminal where the player makes choices to progress.
+
+19. Prime Number Finder
+   Description: Find all prime numbers up to a user-defined limit.
+
+20. Simple Web Scraper
+   Description: Extract headlines or product prices from a website.
+
+21. Expense Tracker
+   Description: Log expenses with date, category, and amount. Show totals.
+
+22. Typing Speed Test
+   Description: Measure how many words per minute the user types.
+
+23. Simple Image Editor
+   Description: Resize, crop, or convert image formats using Pillow library.
+
+24. Unit Converter
+   Description: Convert between units (length, weight, volume, etc.).
+
+25. Random Joke Generator
+   Description: Fetch random jokes from an API and display them.
+
+26. Hangman Game
+   Description: Classic hangman with ASCII art stages.
+
+27. Pomodoro Timer
+   Description: 25-minute work timer with breaks in between.
+
+28. GUI Calculator
+   Description: Basic calculator using Tkinter.
+
+29. Movie Recommendation System
+   Description: Suggest movies based on user preferences (simple data).
+
+30. Simple Blog Website (Flask)
+   Description: Basic blog with CRUD posts using Flask and SQLite.
+
+31. PDF Merger/Splitter
+   Description: Merge multiple PDFs or split one into parts.
+
+32. Email Sender
+   Description: Send emails with attachments using SMTP.
+
+33. Portfolio Website Generator
+   Description: Generate HTML/CSS portfolio from JSON/YAML input.
+
+34. Command-Line Dictionary
+   Description: Look up word meanings using an API.
+
+35. Music Player (GUI)
+   Description: Play MP3 files with a playlist.
+
+36. Chess Game (Terminal)
+   Description: Two-player chess in the terminal.
+
+37. Data Visualization Tool
+   Description: Read CSV and plot graphs using Matplotlib.
+
+38. Twitter Bot
+   Description: Automate tweets and replies using Tweepy API.
+
+39. Image Watermarking Tool
+   Description: Add text/image watermark to pictures.
+
+40. URL Shortener
+   Description: Shorten URLs and store mapping locally or in a database.
+
+41. E-commerce Website (Flask/Django)
+   Description: User accounts, product listings, shopping cart, checkout.
+
+42. Chat Application
+   Description: Real-time chat using sockets or Flask-SocketIO.
+
+43. AI Chatbot
+   Description: Chatbot using a trained NLP model.
+
+44. Face Recognition App
+   Description: Detect and recognize faces in images/videos.
+
+45. Stock Price Tracker
+   Description: Track live stock prices and notify of big changes.
+
+46. Blockchain Simulation
+   Description: Simulate transactions and mining blocks.
+
+47. Machine Learning Classifier
+   Description: Train and test a model on a dataset.
+
+48. Automated Resume Builder
+   Description: Generate resumes from user input in PDF format.
+
+49. Voice Assistant
+   Description: Voice commands to open apps, search web, etc.
+
+50. Full Social Media Clone
+   Description: Build a small-scale clone of a platform like Twitter or Instagram.
+
