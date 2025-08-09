@@ -28,7 +28,7 @@ def view_tasks():
 
 
 def mark_task_as_completed(id):
-    if id > len(tasks):
+    if id < 0 or id >= len(tasks):
         print("Invalid ID")
     elif id <= len(tasks):
         for index, task in enumerate(tasks[:], start=0):
@@ -37,7 +37,7 @@ def mark_task_as_completed(id):
 
 
 def delete_a_task(id):
-    if id > len(tasks):
+    if id < 0 or id >= len(tasks):
         print("Invalid ID")
     elif id <= len(tasks):
         for index, task in enumerate(tasks[:], start=0):
@@ -65,7 +65,7 @@ while True:
 
     user_choice = int(user_choice)
     if user_choice not in (1, 2, 3, 4, 5, 6):
-        print("Choose option from 1-5")
+        print("Choose option from 1-6")
 
     if user_choice == 1:
         add_a_task()
